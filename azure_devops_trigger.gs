@@ -30,7 +30,7 @@ function onFormSubmit(e) {
 function azureDevopsPipeline (Environment, rgList, vmList, email) {
   
   var Username = '';
-  var PAT = 'airtfgr5fhv6mkehfojndhdyiqt7i7yufi26altkhynz3k2b3owa';
+  var PAT = '';
   var Base_Url = 'https://vsrm.dev.azure.com/pwc-gx-advisory/pwc-labs/';
   var Release_name = 'devops-start-stop-vm-adhoc-with-email'
   var Release_Definition_Id = '293';
