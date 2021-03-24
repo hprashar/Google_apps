@@ -31,7 +31,7 @@ function azureDevopsPipeline (Environment, rgList, vmList, email) {
   
   var Username = '';
   var PAT = '';
-  var Base_Url = 'https://vsrm.dev.azure.com/pwc-gx-advisory/pwc-labs/';
+  var Base_Url = 'https://vsrm.dev.azure.com/pwc-gx-advisory/';
   var Release_name = 'devops-start-stop-vm-adhoc-with-email'
   var Release_Definition_Id = '293';
   var DefinitionEnvironmentId = '';
